@@ -3,8 +3,6 @@ from random import randint
 import matplotlib.pyplot as plt
 import numpy as np
 from time import sleep
-import streamlit as st
-import matplotlib.pyplot as plt
 
 """
 # Lesson python
@@ -53,7 +51,7 @@ estimate_prob = st.session_state.experiments.count(True)/len(st.session_state.ex
 
 st.write(estimate_prob)
 
-labels = 'Collisions', 'Not collisions'
+labels = 'Collisions', 'No collisions'
 sizes = [st.session_state.experiments.count(True), st.session_state.experiments.count(False)]
 
 fig1, ax1 = plt.subplots()
