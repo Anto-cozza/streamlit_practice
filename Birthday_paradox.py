@@ -5,13 +5,6 @@ import numpy as np
 from time import sleep
 
 """
-# Lesson python
-hi, this is our new super application, dajeee
-"""
-
-[1,2,3,4]
-
-"""
 # Birthday paradox
 """
 
